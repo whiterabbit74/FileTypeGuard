@@ -4,6 +4,8 @@
 
 A lightweight macOS utility that locks your file type associations and automatically restores them when third-party apps change them without your permission.
 
+![FileTypeGuard Demo](pics/demo1.png)
+
 ## The Problem
 
 Many apps silently hijack your default file associations during installation or updates. You set Preview as your PDF reader, then one day Adobe Acrobat takes over. You fix it, and it happens again. FileTypeGuard puts an end to this.

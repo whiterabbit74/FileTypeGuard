@@ -1,3875 +1,4393 @@
 {
-  "sourceLanguage" : "en",
-  "strings" : {
-    "·" : {
-
+  "sourceLanguage": "en",
+  "strings": {
+    "·": {},
+    "%@": {},
+    "%@ %@ → %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ from %2$@ → %3$@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ %2$@ → %3$@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 从 %2$@ → %3$@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 從 %2$@ → %3$@"
+          }
+        }
+      }
+    },
+    "%@ from %@ restored to %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ from %2$@ restored to %3$@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ を %2$@ から %3$@ に復元しました"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 从 %2$@ 恢复为 %3$@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 從 %2$@ 恢復為 %3$@"
+          }
+        }
+      }
+    },
+    "%@ recovery failed %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ recovery failed\n%2$@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ の復元に失敗しました\n%2$@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 恢复失败\n%2$@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ 恢復失敗\n%2$@"
+          }
+        }
+      }
+    },
+    "%lld days": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld days"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 日"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 天"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 天"
+          }
+        }
+      }
+    },
+    "%lld records": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld records"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 件の記録"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共 %lld 条记录"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "共 %lld 條記錄"
+          }
+        }
+      }
+    },
+    "%lld seconds": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld seconds"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 秒"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 秒"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 秒"
+          }
+        }
+      }
+    },
+    "•": {},
+    "1.0.0": {},
+    "about": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "About"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "について"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "關於"
+          }
+        }
+      }
+    },
+    "add": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "追加"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增"
+          }
+        }
+      }
+    },
+    "add rule failed: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to add protection rule: %@"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保護ルールの追加に失敗しました: %@"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加保护规则失败: %@"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增保護規則失敗: %@"
+          }
+        }
+      }
+    },
+    "add_file_type_protection": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add File Type Protection"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルタイプ保護を追加"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加文件类型保护"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增檔案類型保護"
+          }
+        }
+      }
+    },
+    "add_protection": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Protection"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保護を追加"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加保护"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增保護"
+          }
+        }
+      }
+    },
+    "add_protection_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add Protection Type"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保護タイプを追加"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加保护类型"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新增保護類型"
+          }
+        }
+      }
+    },
+    "add_type_hint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Click the + button in the top right to add file type protection"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "右上の + ボタンをクリックしてファイルタイプの保護を追加"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点击右上角的 + 按钮添加文件类型保护"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "點擊右上角的 + 按鈕新增檔案類型保護"
+          }
+        }
+      }
     },
-    "%@" : {
-
+    "advanced_settings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Advanced Settings"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "詳細設定"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "高级设置"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "進階設定"
+          }
+        }
+      }
     },
-    "%@ %@ → %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ from %2$@ → %3$@"
+    "all": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ %2$@ → %3$@"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "すべて"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ 从 %2$@ → %3$@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ 從 %2$@ → %3$@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
           }
         }
       }
     },
-    "%@ from %@ restored to %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ from %2$@ restored to %3$@"
+    "all_installed_apps": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "All installed apps on this Mac"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ を %2$@ から %3$@ に復元しました"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このMacにインストール済みのすべてのアプリ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ 从 %2$@ 恢复为 %3$@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本机所有已安装应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ 從 %2$@ 恢復為 %3$@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本機所有已安裝應用程式"
           }
         }
       }
     },
-    "%@ recovery failed %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ recovery failed\n%2$@"
+    "auto_recovery": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Auto-restore File Associations"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ の復元に失敗しました\n%2$@"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル関連付けを自動復元"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ 恢复失败\n%2$@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自动恢复文件关联"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@ 恢復失敗\n%2$@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自動恢復檔案關聯"
           }
         }
       }
     },
-    "%lld days" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld days"
+    "can_open_this_type": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can open this file type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 日"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "このファイルタイプを開けます"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 天"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可以打开此类文件"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 天"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可以開啟此類檔案"
           }
         }
       }
     },
-    "%lld records" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld records"
+    "cancel": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 件の記録"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "キャンセル"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "共 %lld 条记录"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "共 %lld 條記錄"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
           }
         }
       }
     },
-    "%lld seconds" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld seconds"
+    "category_archives": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Archives"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 秒"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アーカイブ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 秒"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "压缩包"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld 秒"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "壓縮檔"
           }
         }
       }
     },
-    "•" : {
-
+    "category_audio": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Audio"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音声"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音频"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "音訊"
+          }
+        }
+      }
     },
-    "1.0.0" : {
-
+    "category_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Code"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "コード"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "代码"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "程式碼"
+          }
+        }
+      }
     },
-    "about" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "About"
+    "category_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Data"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "について"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "データ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "关于"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "数据"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "關於"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "資料"
           }
         }
       }
     },
-    "add" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add"
+    "category_documents": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Documents"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "追加"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文書"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文档"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新增"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文件"
           }
         }
       }
     },
-    "add rule failed: %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Failed to add protection rule: %@"
+    "category_images": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Images"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保護ルールの追加に失敗しました: %@"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加保护规则失败: %@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "图片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新增保護規則失敗: %@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "圖片"
           }
         }
       }
     },
-    "add_file_type_protection" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add File Type Protection"
+    "category_videos": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Videos"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルタイプ保護を追加"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "動画"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加文件类型保护"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "视频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新增檔案類型保護"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "影片"
           }
         }
       }
     },
-    "add_protection" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add Protection"
+    "change_detected": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change Detected"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保護を追加"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "変更を検出"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加保护"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检测到变化"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新增保護"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "偵測到變化"
           }
         }
       }
     },
-    "add_protection_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Add Protection Type"
+    "check_interval": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Interval"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保護タイプを追加"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "チェック間隔"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "添加保护类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "检查间隔"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "新增保護類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檢查間隔"
           }
         }
       }
     },
-    "add_type_hint" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Click the + button in the top right to add file type protection"
+    "clear_filter": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Filter"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "右上の + ボタンをクリックしてファイルタイプの保護を追加"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィルターをクリア"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "点击右上角的 + 按钮添加文件类型保护"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除筛选"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "點擊右上角的 + 按鈕新增檔案類型保護"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除篩選"
           }
         }
       }
     },
-    "advanced_settings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Advanced Settings"
+    "click_file_type_card": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Click a file type card on the left"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "詳細設定"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "左側のファイルタイプカードをクリック"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "高级设置"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "点击左侧的文件类型卡片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "進階設定"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "點擊左側的檔案類型卡片"
           }
         }
       }
     },
-    "all" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All"
+    "config_location": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Config File Location"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "すべて"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定ファイルの場所"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全部"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配置文件位置"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "全部"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定檔位置"
           }
         }
       }
     },
-    "all_installed_apps" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "All installed apps on this Mac"
+    "custom_file_extension": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom File Extension"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "このMacにインストール済みのすべてのアプリ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタムファイル拡張子"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "本机所有已安装应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义文件扩展名"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "本機所有已安裝應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自訂檔案副檔名"
           }
         }
       }
     },
-    "auto_recovery" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Auto-restore File Associations"
+    "custom_file_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom File Type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイル関連付けを自動復元"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタムファイルタイプ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自动恢复文件关联"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义文件类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自動恢復檔案關聯"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自訂檔案類型"
           }
         }
       }
     },
-    "can_open_this_type" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Can open this file type"
+    "custom_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Custom Type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "このファイルタイプを開けます"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "カスタムタイプ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "可以打开此类文件"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自定义类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "可以開啟此類檔案"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自訂類型"
           }
         }
       }
     },
-    "cancel" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Cancel"
+    "default_app": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Default App"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "キャンセル"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトアプリ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "默认应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "取消"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "預設應用程式"
           }
         }
       }
     },
-    "category_archives" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Archives"
+    "delete": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アーカイブ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "削除"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "压缩包"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "壓縮檔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刪除"
           }
         }
       }
     },
-    "category_audio" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Audio"
+    "disable": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disable"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "音声"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無効にする"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "音频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "禁用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "音訊"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "停用"
           }
         }
       }
     },
-    "category_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Code"
+    "disabled": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Disabled"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無効"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已禁用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已停用"
           }
         }
       }
     },
-    "category_data" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Data"
+    "edit": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Edit"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "データ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編集"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "数据"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编辑"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "資料"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "編輯"
           }
         }
       }
     },
-    "category_documents" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Documents"
+    "eg_xyz": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "e.g. .xyz"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文書"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "例: .xyz"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文档"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如 .xyz"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文件"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "如 .xyz"
           }
         }
       }
     },
-    "category_images" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Images"
+    "enable": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有効にする"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "图片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "圖片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "啟用"
           }
         }
       }
     },
-    "category_videos" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Videos"
+    "enable_monitoring": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enable File Association Monitoring"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "動画"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル関連付けの監視を有効にする"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "视频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "启用文件关联监控"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "影片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "啟用檔案關聯監控"
           }
         }
       }
     },
-    "change_detected" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Change Detected"
+    "enabled": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enabled"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "変更を検出"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有効"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "检测到变化"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已启用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "偵測到變化"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已啟用"
           }
         }
       }
     },
-    "check_interval" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Check Interval"
+    "enter_extension": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter extension"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "チェック間隔"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拡張子を入力"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "检查间隔"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入扩展名"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "檢查間隔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "輸入副檔名"
           }
         }
       }
     },
-    "clear_filter" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear Filter"
+    "enter_extension_eg_pdf": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter file extension, e.g. .pdf"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "フィルターをクリア"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイル拡張子を入力（例: .pdf）"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "清除筛选"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入文件扩展名，如 .pdf"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "清除篩選"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "輸入檔案副檔名，如 .pdf"
           }
         }
       }
     },
-    "click_file_type_card" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Click a file type card on the left"
+    "error": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "左側のファイルタイプカードをクリック"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エラー"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "点击左侧的文件类型卡片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "错误"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "點擊左側的檔案類型卡片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "錯誤"
           }
         }
       }
     },
-    "config_location" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Config File Location"
+    "error: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error: %@"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定ファイルの場所"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "エラー: %@"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "配置文件位置"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "错误: %@"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定檔位置"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "錯誤: %@"
           }
         }
       }
     },
-    "custom_file_extension" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Custom File Extension"
+    "event_type": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Event Type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "カスタムファイル拡張子"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "イベントタイプ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自定义文件扩展名"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "事件类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自訂檔案副檔名"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "事件類型"
           }
         }
       }
     },
-    "custom_file_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Custom File Type"
+    "failed": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "カスタムファイルタイプ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失敗"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自定义文件类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失败"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自訂檔案類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失敗"
           }
         }
       }
     },
-    "custom_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Custom Type"
+    "file type: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File type: %@"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "カスタムタイプ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルタイプ: %@"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自定义类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文件类型: %@"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "自訂類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檔案類型: %@"
           }
         }
       }
     },
-    "default_app" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Default App"
+    "file_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "デフォルトアプリ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルタイプ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "默认应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文件类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "預設應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "檔案類型"
           }
         }
       }
     },
-    "delete" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Delete"
+    "filetype_7z_archive": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7Z Archive"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "削除"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7Z アーカイブ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "删除"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7Z 压缩包"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "刪除"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "7Z 壓縮檔"
           }
         }
       }
     },
-    "disable" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Disable"
+    "filetype_aac_audio": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AAC Audio"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無効にする"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AAC 音声"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "禁用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AAC 音频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "停用"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AAC 音訊"
           }
         }
       }
     },
-    "disabled" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Disabled"
+    "filetype_avi_video": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVI Video"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無効"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVI 動画"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已禁用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVI 视频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已停用"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AVI 影片"
           }
         }
       }
     },
-    "edit" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Edit"
+    "filetype_c_cpp_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C/C++ Code"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "編集"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C/C++ コード"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "编辑"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C/C++ 代码"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "編輯"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "C/C++ 程式碼"
           }
         }
       }
     },
-    "eg_xyz" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "e.g. .xyz"
+    "filetype_css_stylesheet": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSS Stylesheet"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "例: .xyz"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSS スタイルシート"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "如 .xyz"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSS 样式"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "如 .xyz"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSS 樣式表"
           }
         }
       }
     },
-    "enable" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enable"
+    "filetype_csv_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSV Data"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "有効にする"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSV データ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "启用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSV 数据"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "啟用"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "CSV 資料"
           }
         }
       }
     },
-    "enable_monitoring" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enable File Association Monitoring"
+    "filetype_excel_spreadsheet": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excel Spreadsheet"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイル関連付けの監視を有効にする"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excel スプレッドシート"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "启用文件关联监控"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excel 表格"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "啟用檔案關聯監控"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Excel 試算表"
           }
         }
       }
     },
-    "enabled" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enabled"
+    "filetype_flac_audio": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FLAC Audio"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "有効"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FLAC 音声"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已启用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FLAC 音频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "已啟用"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FLAC 音訊"
           }
         }
       }
     },
-    "enter_extension" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter extension"
+    "filetype_gif_image": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF Image"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "拡張子を入力"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF 画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "输入扩展名"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF 图片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "輸入副檔名"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GIF 圖片"
           }
         }
       }
     },
-    "enter_extension_eg_pdf" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Enter file extension, e.g. .pdf"
+    "filetype_gz_archive": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GZ Compressed"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイル拡張子を入力（例: .pdf）"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GZ 圧縮"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "输入文件扩展名，如 .pdf"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GZ 压缩"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "輸入檔案副檔名，如 .pdf"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GZ 壓縮"
           }
         }
       }
     },
-    "error" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Error"
+    "filetype_heic_image": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEIC Image"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "エラー"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEIC 画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "错误"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEIC 图片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "錯誤"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HEIC 圖片"
           }
         }
       }
     },
-    "error: %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Error: %@"
+    "filetype_html_file": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTML File"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "エラー: %@"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTML ファイル"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "错误: %@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTML 文件"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "錯誤: %@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HTML 檔案"
           }
         }
       }
     },
-    "event_type" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Event Type"
+    "filetype_java_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Java Code"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "イベントタイプ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Java コード"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "事件类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Java 代码"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "事件類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Java 程式碼"
           }
         }
       }
     },
-    "failed" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Failed"
+    "filetype_javascript_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JavaScript Code"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失敗"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JavaScript コード"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失败"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JavaScript 代码"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "失敗"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JavaScript 程式碼"
           }
         }
       }
     },
-    "file type: %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "File type: %@"
+    "filetype_jpeg_image": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG Image"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルタイプ: %@"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG 画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文件类型: %@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG 图片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "檔案類型: %@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JPEG 圖片"
           }
         }
       }
     },
-    "file_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "File Type"
+    "filetype_json_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON Data"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルタイプ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON データ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文件类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON 数据"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "檔案類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "JSON 資料"
           }
         }
       }
     },
-    "filetype_7z_archive" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "7Z Archive"
+    "filetype_markdown_document": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown Document"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "7Z アーカイブ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown ドキュメント"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "7Z 压缩包"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown 文档"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "7Z 壓縮檔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Markdown 文件"
           }
         }
       }
     },
-    "filetype_aac_audio" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AAC Audio"
+    "filetype_mkv_video": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MKV Video"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AAC 音声"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MKV 動画"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AAC 音频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MKV 视频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AAC 音訊"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MKV 影片"
           }
         }
       }
     },
-    "filetype_avi_video" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AVI Video"
+    "filetype_mov_video": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV Video"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AVI 動画"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV 動画"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AVI 视频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV 视频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AVI 影片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MOV 影片"
           }
         }
       }
     },
-    "filetype_c_cpp_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "C/C++ Code"
+    "filetype_mp3_audio": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP3 Audio"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "C/C++ コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP3 音声"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "C/C++ 代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP3 音频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "C/C++ 程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP3 音訊"
           }
         }
       }
     },
-    "filetype_css_stylesheet" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSS Stylesheet"
+    "filetype_mp4_video": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP4 Video"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSS スタイルシート"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP4 動画"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSS 样式"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP4 视频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSS 樣式表"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MP4 影片"
           }
         }
       }
     },
-    "filetype_csv_data" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSV Data"
+    "filetype_ogg_audio": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OGG Audio"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSV データ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OGG 音声"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSV 数据"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OGG 音频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "CSV 資料"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OGG 音訊"
           }
         }
       }
     },
-    "filetype_excel_spreadsheet" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Excel Spreadsheet"
+    "filetype_pdf_document": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PDF Document"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Excel スプレッドシート"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PDF ドキュメント"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Excel 表格"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PDF 文档"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Excel 試算表"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PDF 文件"
           }
         }
       }
     },
-    "filetype_flac_audio" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "FLAC Audio"
+    "filetype_photoshop_file": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photoshop File"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "FLAC 音声"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photoshop ファイル"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "FLAC 音频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photoshop 文件"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "FLAC 音訊"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Photoshop 檔案"
           }
         }
       }
     },
-    "filetype_gif_image" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GIF Image"
+    "filetype_png_image": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG Image"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GIF 画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG 画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GIF 图片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG 图片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GIF 圖片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PNG 圖片"
           }
         }
       }
     },
-    "filetype_gz_archive" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GZ Compressed"
+    "filetype_powerpoint_presentation": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PowerPoint Presentation"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GZ 圧縮"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PowerPoint プレゼンテーション"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GZ 压缩"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PowerPoint 演示"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "GZ 壓縮"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "PowerPoint 簡報"
           }
         }
       }
     },
-    "filetype_heic_image" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HEIC Image"
+    "filetype_python_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Python Code"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HEIC 画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Python コード"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HEIC 图片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Python 代码"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HEIC 圖片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Python 程式碼"
           }
         }
       }
     },
-    "filetype_html_file" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HTML File"
+    "filetype_rar_archive": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RAR Archive"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HTML ファイル"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RAR アーカイブ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HTML 文件"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RAR 压缩包"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "HTML 檔案"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RAR 壓縮檔"
           }
         }
       }
     },
-    "filetype_java_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Java Code"
+    "filetype_rtf_document": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF Document"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Java コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF ドキュメント"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Java 代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF 文档"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Java 程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "RTF 文件"
           }
         }
       }
     },
-    "filetype_javascript_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JavaScript Code"
+    "filetype_svg_image": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SVG Vector Image"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JavaScript コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SVG ベクター画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JavaScript 代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SVG 矢量图"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JavaScript 程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SVG 向量圖"
           }
         }
       }
     },
-    "filetype_jpeg_image" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JPEG Image"
+    "filetype_swift_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swift Code"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JPEG 画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swift コード"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JPEG 图片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swift 代码"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JPEG 圖片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Swift 程式碼"
           }
         }
       }
     },
-    "filetype_json_data" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JSON Data"
+    "filetype_tar_archive": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TAR Archive"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JSON データ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TAR アーカイブ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JSON 数据"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TAR 归档"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "JSON 資料"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TAR 歸檔"
           }
         }
       }
     },
-    "filetype_markdown_document" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Markdown Document"
+    "filetype_text_file": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Text File"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Markdown ドキュメント"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "テキストファイル"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Markdown 文档"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文本文件"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Markdown 文件"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文字檔"
           }
         }
       }
     },
-    "filetype_mkv_video" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MKV Video"
+    "filetype_typescript_code": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TypeScript Code"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MKV 動画"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TypeScript コード"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MKV 视频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TypeScript 代码"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MKV 影片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TypeScript 程式碼"
           }
         }
       }
     },
-    "filetype_mov_video" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MOV Video"
+    "filetype_wav_audio": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAV Audio"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MOV 動画"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAV 音声"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MOV 视频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAV 音频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MOV 影片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WAV 音訊"
           }
         }
       }
     },
-    "filetype_mp3_audio" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP3 Audio"
+    "filetype_webm_video": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebM Video"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP3 音声"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebM 動画"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP3 音频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebM 视频"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP3 音訊"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebM 影片"
           }
         }
       }
     },
-    "filetype_mp4_video" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP4 Video"
+    "filetype_webp_image": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebP Image"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP4 動画"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebP 画像"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP4 视频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebP 图片"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "MP4 影片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "WebP 圖片"
           }
         }
       }
     },
-    "filetype_ogg_audio" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OGG Audio"
+    "filetype_word_document": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Word Document"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OGG 音声"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Word ドキュメント"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OGG 音频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Word 文档"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OGG 音訊"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Word 文件"
           }
         }
       }
     },
-    "filetype_pdf_document" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PDF Document"
+    "filetype_xml_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "XML Data"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PDF ドキュメント"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "XML データ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PDF 文档"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "XML 数据"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PDF 文件"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "XML 資料"
           }
         }
       }
     },
-    "filetype_photoshop_file" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photoshop File"
+    "filetype_yaml_data": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YAML Data"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photoshop ファイル"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YAML データ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photoshop 文件"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YAML 数据"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Photoshop 檔案"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YAML 資料"
           }
         }
       }
     },
-    "filetype_png_image" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PNG Image"
+    "filetype_zip_archive": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP Archive"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PNG 画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP アーカイブ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PNG 图片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP 压缩包"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PNG 圖片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ZIP 壓縮檔"
           }
         }
       }
     },
-    "filetype_powerpoint_presentation" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PowerPoint Presentation"
+    "FileTypeGuard": {},
+    "filter": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PowerPoint プレゼンテーション"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィルター"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PowerPoint 演示"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "筛选"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "PowerPoint 簡報"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "篩選"
           }
         }
       }
     },
-    "filetype_python_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Python Code"
+    "filter_criteria": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter Criteria"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Python コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "フィルター条件"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Python 代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "筛选条件"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Python 程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "篩選條件"
           }
         }
       }
     },
-    "filetype_rar_archive" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RAR Archive"
+    "identifying_file_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Identifying file type..."
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RAR アーカイブ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルタイプを識別中..."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RAR 压缩包"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在识别文件类型..."
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RAR 壓縮檔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在識別檔案類型..."
           }
         }
       }
     },
-    "filetype_rtf_document" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RTF Document"
+    "last verified: %@": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Last verified: %@"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RTF ドキュメント"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最終確認: %@"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RTF 文档"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最后验证: %@"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "RTF 文件"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最後驗證: %@"
           }
         }
       }
     },
-    "filetype_svg_image" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SVG Vector Image"
+    "loading_app_list": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Loading app list..."
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SVG ベクター画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリリストを読み込み中..."
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SVG 矢量图"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在加载应用列表..."
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "SVG 向量圖"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在載入應用程式列表..."
           }
         }
       }
     },
-    "filetype_swift_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swift Code"
+    "log_empty_description": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When file associations are modified and restored, records will appear here"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swift コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルの関連付けが変更・復元されると、ここに記録が表示されます"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swift 代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当文件关联被修改并恢复时，这里会显示记录"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Swift 程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "當檔案關聯被修改並恢復時，這裡會顯示記錄"
           }
         }
       }
     },
-    "filetype_tar_archive" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TAR Archive"
+    "log_records": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log Records"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TAR アーカイブ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログ記録"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TAR 归档"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日志记录"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TAR 歸檔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日誌記錄"
           }
         }
       }
     },
-    "filetype_text_file" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Text File"
+    "log_retention_days": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Log Retention Days"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "テキストファイル"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログ保持日数"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文本文件"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日志保留天数"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "文字檔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日誌保留天數"
           }
         }
       }
     },
-    "filetype_typescript_code" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TypeScript Code"
+    "logs": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Logs"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TypeScript コード"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TypeScript 代码"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日志"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "TypeScript 程式碼"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日誌"
           }
         }
       }
     },
-    "filetype_wav_audio" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WAV Audio"
+    "monitoring_settings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Monitoring Settings"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WAV 音声"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "監視設定"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WAV 音频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "监控设置"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WAV 音訊"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "監控設定"
           }
         }
       }
     },
-    "filetype_webm_video" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebM Video"
+    "no_apps_found": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Apps Found"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebM 動画"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリが見つかりません"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebM 视频"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebM 影片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未找到應用程式"
           }
         }
       }
     },
-    "filetype_webp_image" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebP Image"
+    "no_log_records": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Log Records"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebP 画像"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログ記録なし"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebP 图片"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暂无日志记录"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "WebP 圖片"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暫無日誌記錄"
           }
         }
       }
     },
-    "filetype_word_document" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Word Document"
+    "no_protection_types": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No Protection Types"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Word ドキュメント"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保護タイプなし"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Word 文档"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暂无保护类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Word 文件"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暫無保護類型"
           }
         }
       }
     },
-    "filetype_xml_data" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "XML Data"
+    "notification_association_restored": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File Association Restored"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "XML データ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルの関連付けが復元されました"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "XML 数据"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✅ 文件关联已恢复"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "XML 資料"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "✅ 檔案關聯已恢復"
           }
         }
       }
     },
-    "filetype_yaml_data" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "YAML Data"
+    "notification_recovery_failed": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recovery Failed"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "YAML データ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "復元に失敗しました"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "YAML 数据"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "❌ 恢复失败"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "YAML 資料"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "❌ 恢復失敗"
           }
         }
       }
     },
-    "filetype_zip_archive" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ZIP Archive"
+    "notification_settings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notification Settings"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ZIP アーカイブ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知設定"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ZIP 压缩包"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知设置"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ZIP 壓縮檔"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知設定"
           }
         }
       }
     },
-    "FileTypeGuard" : {
-
+    "notification_sound": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Notification Sound"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知音"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知声音"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知聲音"
+          }
+        }
+      }
     },
-    "filter" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Filter"
+    "ok": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "フィルター"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "筛选"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "确定"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "篩選"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "確定"
           }
         }
       }
     },
-    "filter_criteria" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Filter Criteria"
+    "open": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "フィルター条件"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開く"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "筛选条件"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "篩選條件"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開啟"
           }
         }
       }
     },
-    "identifying_file_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Identifying file type..."
+    "other_apps": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Other Apps"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルタイプを識別中..."
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "その他のアプリ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在识别文件类型..."
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在識別檔案類型..."
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "其他應用程式"
           }
         }
       }
     },
-    "last verified: %@" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Last verified: %@"
+    "pending": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pending"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "最終確認: %@"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保留中"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "最后验证: %@"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "待处理"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "最後驗證: %@"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "待處理"
           }
         }
       }
     },
-    "loading_app_list" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Loading app list..."
+    "preview": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preview"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アプリリストを読み込み中..."
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "プレビュー"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在加载应用列表..."
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "预览"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "正在載入應用程式列表..."
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "預覽"
           }
         }
       }
     },
-    "log_empty_description" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "When file associations are modified and restored, records will appear here"
+    "protected_types": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Protected Types"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルの関連付けが変更・復元されると、ここに記録が表示されます"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保護タイプ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "当文件关联被修改并恢复时，这里会显示记录"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保护类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "當檔案關聯被修改並恢復時，這裡會顯示記錄"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保護類型"
           }
         }
       }
     },
-    "log_records" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Log Records"
+    "recommended": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommended"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ログ記録"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "推奨"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志记录"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "推荐"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日誌記錄"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "推薦"
           }
         }
       }
     },
-    "log_retention_days" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Log Retention Days"
+    "recommended_apps": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommended Apps"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ログ保持日数"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "推奨アプリ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志保留天数"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "推荐应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日誌保留天數"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "推薦應用程式"
           }
         }
       }
     },
-    "logs" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Logs"
+    "refresh_list": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh List"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ログ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "リストを更新"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日志"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刷新列表"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "日誌"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新整理列表"
           }
         }
       }
     },
-    "monitoring_settings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Monitoring Settings"
+    "refresh_logs": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh Logs"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "監視設定"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログを更新"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "监控设置"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刷新日志"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "監控設定"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新整理日誌"
           }
         }
       }
     },
-    "no_apps_found" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Apps Found"
+    "restore_failed": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Failed"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アプリが見つかりません"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "復元失敗"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "未找到应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复失败"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "未找到應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢復失敗"
           }
         }
       }
     },
-    "no_log_records" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Log Records"
+    "restore_success": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Restore Successful"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ログ記録なし"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "復元成功"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "暂无日志记录"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢复成功"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "暫無日誌記錄"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "恢復成功"
           }
         }
       }
     },
-    "no_protection_types" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No Protection Types"
+    "search_app": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search apps"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保護タイプなし"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリを検索"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "暂无保护类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "暫無保護類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜尋應用程式"
           }
         }
       }
     },
-    "notification_association_restored" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "File Association Restored"
+    "search_app_or_filetype": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search apps or file types"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルの関連付けが復元されました"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "アプリまたはファイルタイプを検索"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✅ 文件关联已恢复"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜索应用或文件类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "✅ 檔案關聯已恢復"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "搜尋應用程式或檔案類型"
           }
         }
       }
     },
-    "notification_recovery_failed" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recovery Failed"
+    "select_default_app": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select Default App"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "復元に失敗しました"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "デフォルトアプリを選択"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "❌ 恢复失败"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择默认应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "❌ 恢復失敗"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "選擇預設應用程式"
           }
         }
       }
     },
-    "notification_settings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notification Settings"
+    "select_file_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select a File Type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通知設定"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ファイルタイプを選択"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通知设置"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请选择文件类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通知設定"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "請選擇檔案類型"
           }
         }
       }
     },
-    "notification_sound" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Notification Sound"
+    "settings": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通知音"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通知声音"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "通知聲音"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "設定"
           }
         }
       }
     },
-    "ok" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+    "show_notifications": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show System Notifications"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "OK"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "システム通知を表示"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "确定"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "显示系统通知"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "確定"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "顯示系統通知"
           }
         }
       }
     },
-    "open" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Open"
+    "start_at_login": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Start at Login"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "開く"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ログイン時に起動"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "打开"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开机自动启动"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "開啟"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "開機自動啟動"
           }
         }
       }
     },
-    "other_apps" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Other Apps"
+    "success": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Success"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "その他のアプリ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成功"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "其他应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成功"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "其他應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "成功"
           }
         }
       }
     },
-    "pending" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Pending"
+    "tagline": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your files, always opening the way you expect"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保留中"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "あなたのファイルを、いつも期待通りに開く"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "待处理"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的文件，永远按照你期望的方式打开"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "待處理"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的檔案，永遠按照你期望的方式開啟"
           }
         }
       }
     },
-    "preview" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Preview"
+    "unknown_app": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unknown App"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "プレビュー"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不明なアプリ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "预览"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未知应用"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "預覽"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未知應用程式"
           }
         }
       }
     },
-    "protected_types" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Protected Types"
+    "unrecognized_file_type": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unrecognized file type"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保護タイプ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "認識できないファイルタイプ"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保护类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未识别的文件类型"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "保護類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "無法識別的檔案類型"
           }
         }
       }
     },
-    "recommended" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recommended"
+    "user_modified": {
+      "extractionState": "stale",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "User Modified"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推奨"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ユーザー変更"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推荐"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用户修改"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推薦"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用者修改"
           }
         }
       }
     },
-    "recommended_apps" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recommended Apps"
+    "UTI: %@": {},
+    "v0.1.0-dev": {},
+    "version": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Version"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推奨アプリ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "バージョン"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推荐应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "推薦應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
           }
         }
       }
     },
-    "refresh_list" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Refresh List"
+    "picker_select_all_in_category": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select All in Category"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "リストを更新"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select All in Category"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "刷新列表"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select All in Category"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新整理列表"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select All in Category"
           }
         }
       }
     },
-    "refresh_logs" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Refresh Logs"
+    "picker_clear_selected": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Selection"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ログを更新"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Selection"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "刷新日志"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Selection"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "重新整理日誌"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Clear Selection"
           }
         }
       }
     },
-    "restore_failed" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Restore Failed"
+    "picker_search_or_extension": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search all formats or type extension (e.g. mp4 or .abc)"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "復元失敗"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search all formats or type extension (e.g. mp4 or .abc)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "恢复失败"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search all formats or type extension (e.g. mp4 or .abc)"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "恢復失敗"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search all formats or type extension (e.g. mp4 or .abc)"
           }
         }
       }
     },
-    "restore_success" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Restore Successful"
+    "picker_selected": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "復元成功"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "恢复成功"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "恢復成功"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected"
           }
         }
       }
     },
-    "search_app" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search apps"
+    "picker_selected_formats": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected Formats"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アプリを検索"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected Formats"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜索应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected Formats"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜尋應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selected Formats"
           }
         }
       }
     },
-    "search_app_or_filetype" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Search apps or file types"
+    "picker_select_format_hint": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select one or more formats on the right"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "アプリまたはファイルタイプを検索"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select one or more formats on the right"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜索应用或文件类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select one or more formats on the right"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "搜尋應用程式或檔案類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Select one or more formats on the right"
           }
         }
       }
     },
-    "select_default_app" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select Default App"
+    "picker_footer_steps": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps: 1) Select app  2) Select one or more formats"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "デフォルトアプリを選択"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps: 1) Select app  2) Select one or more formats"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "选择默认应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps: 1) Select app  2) Select one or more formats"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "選擇預設應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Steps: 1) Select app  2) Select one or more formats"
           }
         }
       }
     },
-    "select_file_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Select a File Type"
+    "picker_failed_partial": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to apply some formats:"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ファイルタイプを選択"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to apply some formats:"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "请选择文件类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to apply some formats:"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "請選擇檔案類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Failed to apply some formats:"
           }
         }
       }
     },
-    "settings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Settings"
+    "sort_by": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort by"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort by"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "设置"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort by"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "設定"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sort by"
           }
         }
       }
     },
-    "show_notifications" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show System Notifications"
+    "sort_recommended": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommended"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "システム通知を表示"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommended"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "显示系统通知"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommended"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "顯示系統通知"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recommended"
           }
         }
       }
     },
-    "start_at_login" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Start at Login"
+    "sort_name_asc": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (A to Z)"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ログイン時に起動"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (A to Z)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "开机自动启动"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (A to Z)"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "開機自動啟動"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (A to Z)"
           }
         }
       }
     },
-    "success" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Success"
+    "sort_name_desc": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (Z to A)"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (Z to A)"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (Z to A)"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "成功"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Name (Z to A)"
           }
         }
       }
     },
-    "tagline" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your files, always opening the way you expect"
+    "sort_recently_updated": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently Updated"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "あなたのファイルを、いつも期待通りに開く"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently Updated"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "你的文件，永远按照你期望的方式打开"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently Updated"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "你的檔案，永遠按照你期望的方式開啟"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Recently Updated"
           }
         }
       }
     },
-    "unknown_app" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unknown App"
+    "sort_oldest_updated": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oldest Updated"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "不明なアプリ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oldest Updated"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "未知应用"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oldest Updated"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "未知應用程式"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oldest Updated"
           }
         }
       }
     },
-    "unrecognized_file_type" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Unrecognized file type"
+    "view_as_list": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as List"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "認識できないファイルタイプ"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as List"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "未识别的文件类型"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as List"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "無法識別的檔案類型"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as List"
           }
         }
       }
     },
-    "user_modified" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "User Modified"
+    "view_as_map": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as Mind Map"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "ユーザー変更"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as Mind Map"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "用户修改"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as Mind Map"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "使用者修改"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "View as Mind Map"
           }
         }
       }
     },
-    "UTI: %@" : {
-
+    "zoom_out": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom Out"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom Out"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom Out"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom Out"
+          }
+        }
+      }
     },
-    "v0.1.0-dev" : {
-
+    "zoom_in": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom In"
+          }
+        },
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom In"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom In"
+          }
+        },
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Zoom In"
+          }
+        }
+      }
     },
-    "version" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Version"
+    "zoom_reset": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Zoom"
           }
         },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "バージョン"
+        "ja": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Zoom"
           }
         },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "版本"
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Zoom"
           }
         },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "版本"
+        "zh-Hant": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Reset Zoom"
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }

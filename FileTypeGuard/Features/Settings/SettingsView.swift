@@ -29,6 +29,11 @@ struct SettingsView: View {
 
                 Divider()
 
+                // 外观设置
+                appearanceSection
+
+                Divider()
+
                 // 高级设置
                 advancedSection
 
@@ -112,6 +117,33 @@ struct SettingsView: View {
         .cornerRadius(8)
     }
 
+    // MARK: - Appearance Section
+
+    private var appearanceSection: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            Text("appearance")
+                .font(.headline)
+
+            Picker("Show app in", selection: $viewModel.appDisplayMode) {
+                ForEach(AppDisplayMode.allCases) { mode in
+                    Text(mode.title).tag(mode)
+                }
+            }
+            .pickerStyle(.segmented)
+            .onChange(of: viewModel.appDisplayMode) { newValue in
+                viewModel.savePreferences()
+                appCoordinator.updateDisplayMode(newValue)
+            }
+
+            Text("Choose where FileTypeGuard appears in macOS.")
+                .font(.caption)
+                .foregroundStyle(.secondary)
+        }
+        .padding()
+        .background(Color(nsColor: .windowBackgroundColor))
+        .cornerRadius(8)
+    }
+
     // MARK: - Advanced Section
 
     private var advancedSection: some View {
@@ -185,6 +217,7 @@ final class SettingsViewModel: ObservableObject {
     @Published var notificationSound = true
     @Published var logRetentionDays = 30
     @Published var startAtLogin = false
+    @Published var appDisplayMode: AppDisplayMode = .dockOnly
 
     private let configManager = ConfigurationManager.shared
 
@@ -197,6 +230,7 @@ final class SettingsViewModel: ObservableObject {
         notificationSound = prefs.notificationSound
         logRetentionDays = prefs.logRetentionDays
         startAtLogin = prefs.startAtLogin
+        appDisplayMode = prefs.appDisplayMode
     }
 
     func savePreferences() {
@@ -208,6 +242,7 @@ final class SettingsViewModel: ObservableObject {
         prefs.notificationSound = notificationSound
         prefs.logRetentionDays = logRetentionDays
         prefs.startAtLogin = startAtLogin
+        prefs.appDisplayMode = appDisplayMode
 
         do {
             try configManager.updatePreferences(prefs)

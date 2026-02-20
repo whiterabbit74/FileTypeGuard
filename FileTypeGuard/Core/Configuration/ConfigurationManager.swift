@@ -49,6 +49,11 @@ final class ConfigurationManager {
 
     /// 用户偏好设置
     struct UserPreferences: Codable {
+        struct MindMapNodePosition: Codable, Equatable {
+            var x: Double
+            var y: Double
+        }
+
         var monitoringEnabled: Bool = true
         var checkInterval: TimeInterval = 5.0
         var recoveryStrategy: RecoveryStrategy = .immediate
@@ -57,6 +62,37 @@ final class ConfigurationManager {
         var autoRecoveryEnabled: Bool = true
         var logRetentionDays: Int = 30
         var startAtLogin: Bool = false
+        var appDisplayMode: AppDisplayMode = .dockOnly
+        var mindMapNodePositions: [String: MindMapNodePosition] = [:]
+
+        enum CodingKeys: String, CodingKey {
+            case monitoringEnabled
+            case checkInterval
+            case recoveryStrategy
+            case showNotifications
+            case notificationSound
+            case autoRecoveryEnabled
+            case logRetentionDays
+            case startAtLogin
+            case appDisplayMode
+            case mindMapNodePositions
+        }
+
+        init() {}
+
+        init(from decoder: Decoder) throws {
+            let container = try decoder.container(keyedBy: CodingKeys.self)
+            monitoringEnabled = try container.decodeIfPresent(Bool.self, forKey: .monitoringEnabled) ?? true
+            checkInterval = try container.decodeIfPresent(TimeInterval.self, forKey: .checkInterval) ?? 5.0
+            recoveryStrategy = try container.decodeIfPresent(RecoveryStrategy.self, forKey: .recoveryStrategy) ?? .immediate
+            showNotifications = try container.decodeIfPresent(Bool.self, forKey: .showNotifications) ?? true
+            notificationSound = try container.decodeIfPresent(Bool.self, forKey: .notificationSound) ?? true
+            autoRecoveryEnabled = try container.decodeIfPresent(Bool.self, forKey: .autoRecoveryEnabled) ?? true
+            logRetentionDays = try container.decodeIfPresent(Int.self, forKey: .logRetentionDays) ?? 30
+            startAtLogin = try container.decodeIfPresent(Bool.self, forKey: .startAtLogin) ?? false
+            appDisplayMode = try container.decodeIfPresent(AppDisplayMode.self, forKey: .appDisplayMode) ?? .dockOnly
+            mindMapNodePositions = try container.decodeIfPresent([String: MindMapNodePosition].self, forKey: .mindMapNodePositions) ?? [:]
+        }
     }
 
     // MARK: - Error Types

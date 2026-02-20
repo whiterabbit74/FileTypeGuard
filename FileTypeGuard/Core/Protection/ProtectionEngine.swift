@@ -11,6 +11,7 @@ final class ProtectionEngine {
     private let lsManager = LaunchServicesManager.shared
     private let logger = EventLogger.shared
     private var recoveryTasks: [String: DispatchWorkItem] = [:]  // UTI -> 恢复任务
+    private var runningValidations: Set<String> = []
     private let queue = DispatchQueue(label: "com.filetypeprotector.protection", qos: .userInitiated)
 
     /// 最大重试次数
@@ -51,6 +52,12 @@ final class ProtectionEngine {
     func validateAndRecover(uti: String) {
         queue.async { [weak self] in
             guard let self = self else { return }
+            guard !self.runningValidations.contains(uti) else {
+                return
+            }
+
+            self.runningValidations.insert(uti)
+            defer { self.runningValidations.remove(uti) }
 
             do {
                 try self._validateAndRecover(uti: uti)
@@ -107,7 +114,7 @@ final class ProtectionEngine {
         var needsRecovery = (currentBundleID != expectedBundleID)
 
         // 4. 检查所有动态 UTI 是否也被修改
-        if let ext = rule.fileType.extensions.first {
+        if shouldManageDynamicUTIs(for: uti), let ext = rule.fileType.extensions.first {
             let allUTIs = lsManager.findAllUTIs(forExtension: ext)
             for dynUTI in allUTIs {
                 if dynUTI == uti { continue }
@@ -148,7 +155,8 @@ final class ProtectionEngine {
             try performRecovery(
                 uti: uti,
                 expectedBundleID: expectedBundleID,
-                currentBundleID: currentBundleID
+                currentBundleID: currentBundleID,
+                preferredExtension: rule.fileType.extensions.first
             )
 
         case .delayed:
@@ -156,6 +164,7 @@ final class ProtectionEngine {
                 uti: uti,
                 expectedBundleID: expectedBundleID,
                 currentBundleID: currentBundleID,
+                preferredExtension: rule.fileType.extensions.first,
                 delay: strategy.delaySeconds
             )
 
@@ -169,12 +178,12 @@ final class ProtectionEngine {
         uti: String,
         expectedBundleID: String,
         currentBundleID: String?,
+        preferredExtension: String?,
         retryCount: Int = 0
     ) throws {
         do {
-            // 获取文件扩展名，使用扩展名级别的设置（覆盖所有相关 UTI，包括动态 UTI）
-            let extensions = UTIManager.shared.getExtensions(forUTI: uti)
-            if let ext = extensions.first {
+            // 优先使用规则里记录的扩展名，避免误改其他类型（例如 markdown 的动态 UTI）
+            if shouldManageDynamicUTIs(for: uti), let ext = preferredExtension, !ext.isEmpty {
                 try lsManager.setDefaultApplicationForExtension(
                     expectedBundleID,
                     extension: ext,
@@ -238,6 +247,7 @@ final class ProtectionEngine {
                     uti: uti,
                     expectedBundleID: expectedBundleID,
                     currentBundleID: currentBundleID,
+                    preferredExtension: preferredExtension,
                     retryCount: retryCount + 1
                 )
             } else {
@@ -251,6 +261,7 @@ final class ProtectionEngine {
         uti: String,
         expectedBundleID: String,
         currentBundleID: String?,
+        preferredExtension: String?,
         delay: TimeInterval
     ) {
         // 取消现有任务
@@ -265,7 +276,8 @@ final class ProtectionEngine {
                 try self.performRecovery(
                     uti: uti,
                     expectedBundleID: expectedBundleID,
-                    currentBundleID: currentBundleID
+                    currentBundleID: currentBundleID,
+                    preferredExtension: preferredExtension
                 )
             } catch {
                 print("❌ 延迟恢复失败: \(error)")
@@ -288,6 +300,11 @@ final class ProtectionEngine {
     private func findRule(for uti: String) -> ProtectionRule? {
         let rules = configManager.getProtectionRules()
         return rules.first { $0.fileType.uti == uti }
+    }
+
+    /// 仅对特定 UTI 做动态 UTI 管理，避免对 public.* 通用类型产生冲突循环
+    private func shouldManageDynamicUTIs(for uti: String) -> Bool {
+        !uti.hasPrefix("public.")
     }
 
     // MARK: - Smart Strategy Selection

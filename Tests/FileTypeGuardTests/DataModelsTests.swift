@@ -242,6 +242,30 @@ final class DataModelsTests: XCTestCase {
         print("✅ 更新偏好设置成功")
     }
 
+    func testUserPreferences_DecodeLegacyConfigWithoutDisplayMode() throws {
+        // Given: 旧版本配置 JSON（没有 appDisplayMode 字段）
+        let legacyJSON = """
+        {
+          "monitoringEnabled": true,
+          "checkInterval": 10,
+          "recoveryStrategy": "immediate",
+          "showNotifications": true,
+          "notificationSound": true,
+          "autoRecoveryEnabled": true,
+          "logRetentionDays": 30,
+          "startAtLogin": false
+        }
+        """
+        let data = Data(legacyJSON.utf8)
+
+        // When: 解码用户偏好
+        let prefs = try JSONDecoder().decode(ConfigurationManager.UserPreferences.self, from: data)
+
+        // Then: 新字段应回退到默认值
+        XCTAssertEqual(prefs.appDisplayMode, .dockOnly)
+        XCTAssertTrue(prefs.mindMapNodePositions.isEmpty)
+    }
+
     func testConfigurationManager_GetPath() {
         // Given: ConfigurationManager
         let manager = ConfigurationManager.shared

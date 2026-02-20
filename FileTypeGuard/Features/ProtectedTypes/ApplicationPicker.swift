@@ -16,6 +16,9 @@ struct ApplicationPicker: View {
     @State private var isLoading = false
     @State private var searchText = ""
     @State private var loadedUTI: String = ""
+    @State private var hasLoadedAtLeastOnce = false
+    @State private var sortMode: ApplicationSortMode = .recentlyUpdated
+    @State private var appModifiedDates: [String: Date] = [:]
 
     // MARK: - Body
 
@@ -39,11 +42,24 @@ struct ApplicationPicker: View {
                     .buttonStyle(.plain)
                 }
             }
+            HStack {
+                Text(String(localized: "sort_by"))
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+                Picker(String(localized: "sort_by"), selection: $sortMode) {
+                    ForEach(ApplicationSortMode.allCases) { mode in
+                        Text(mode.title).tag(mode)
+                    }
+                }
+                .labelsHidden()
+                .pickerStyle(.menu)
+                Spacer()
+            }
 
             // 应用列表
             if isLoading {
                 loadingView
-            } else if recommendedApps.isEmpty && otherApps.isEmpty {
+            } else if sortedRecommended.isEmpty && sortedOther.isEmpty {
                 emptyView
             } else {
                 applicationList
@@ -62,7 +78,8 @@ struct ApplicationPicker: View {
     /// 只在 UTI 真正变化时才重新加载
     private func loadIfNeeded() {
         let currentUTI = fileType?.uti ?? ""
-        guard currentUTI != loadedUTI else { return }
+        guard !hasLoadedAtLeastOnce || currentUTI != loadedUTI else { return }
+        hasLoadedAtLeastOnce = true
         loadedUTI = currentUTI
         loadAllApplications()
     }
@@ -73,19 +90,19 @@ struct ApplicationPicker: View {
         ScrollView {
             LazyVStack(alignment: .leading, spacing: 0) {
                 // 推荐应用分组
-                if !filteredRecommended.isEmpty {
+                if !sortedRecommended.isEmpty {
                     sectionHeader(String(localized: "recommended_apps"), subtitle: String(localized: "can_open_this_type"))
 
-                    ForEach(filteredRecommended) { app in
+                    ForEach(sortedRecommended) { app in
                         appRow(app, isRecommended: true)
                     }
                 }
 
                 // 其他应用分组
-                if !filteredOther.isEmpty {
+                if !sortedOther.isEmpty {
                     sectionHeader(String(localized: "other_apps"), subtitle: String(localized: "all_installed_apps"))
 
-                    ForEach(filteredOther) { app in
+                    ForEach(sortedOther) { app in
                         appRow(app, isRecommended: false)
                     }
                 }
@@ -204,12 +221,12 @@ struct ApplicationPicker: View {
 
     // MARK: - Filtered
 
-    private var filteredRecommended: [Application] {
-        filterApps(recommendedApps)
+    private var sortedRecommended: [Application] {
+        sortApps(filterApps(recommendedApps))
     }
 
-    private var filteredOther: [Application] {
-        filterApps(otherApps)
+    private var sortedOther: [Application] {
+        sortApps(filterApps(otherApps))
     }
 
     private func filterApps(_ apps: [Application]) -> [Application] {
@@ -218,6 +235,31 @@ struct ApplicationPicker: View {
             app.name.localizedCaseInsensitiveContains(searchText) ||
             app.bundleID.localizedCaseInsensitiveContains(searchText)
         }
+    }
+
+    private func sortApps(_ apps: [Application]) -> [Application] {
+        switch sortMode {
+        case .recommended, .nameAscending:
+            return apps.sorted { lhs, rhs in
+                lhs.name.localizedCaseInsensitiveCompare(rhs.name) == .orderedAscending
+            }
+        case .nameDescending:
+            return apps.sorted { lhs, rhs in
+                lhs.name.localizedCaseInsensitiveCompare(rhs.name) == .orderedDescending
+            }
+        case .recentlyUpdated:
+            return apps.sorted { lhs, rhs in
+                modifiedDate(for: lhs) > modifiedDate(for: rhs)
+            }
+        case .oldestUpdated:
+            return apps.sorted { lhs, rhs in
+                modifiedDate(for: lhs) < modifiedDate(for: rhs)
+            }
+        }
+    }
+
+    private func modifiedDate(for app: Application) -> Date {
+        appModifiedDates[app.bundleID] ?? .distantPast
     }
 
     // MARK: - Load
@@ -242,6 +284,7 @@ struct ApplicationPicker: View {
 
             for bundleID in allBundleIDs {
                 guard let app = Application.from(bundleID: bundleID) else { continue }
+                appModifiedDates[bundleID] = applicationModifiedDate(at: app.pathURL)
 
                 if recommendedBundleIDs.contains(bundleID) {
                     recommended.append(app)
@@ -255,6 +298,7 @@ struct ApplicationPicker: View {
             for bundleID in recommendedBundleIDs {
                 if !allBundleIDSet.contains(bundleID) {
                     if let app = Application.from(bundleID: bundleID) {
+                        appModifiedDates[bundleID] = applicationModifiedDate(at: app.pathURL)
                         recommended.append(app)
                     }
                 }
@@ -280,6 +324,39 @@ struct ApplicationPicker: View {
 
                 print("✅ 加载了 \(recommended.count) 个推荐应用, \(other.count) 个其他应用")
             }
+        }
+    }
+
+    private func applicationModifiedDate(at url: URL) -> Date {
+        guard let values = try? url.resourceValues(forKeys: [.contentModificationDateKey]),
+              let date = values.contentModificationDate else {
+            return .distantPast
+        }
+        return date
+    }
+}
+
+private enum ApplicationSortMode: String, CaseIterable, Identifiable {
+    case recommended
+    case nameAscending
+    case nameDescending
+    case recentlyUpdated
+    case oldestUpdated
+
+    var id: String { rawValue }
+
+    var title: String {
+        switch self {
+        case .recommended:
+            return String(localized: "sort_recommended")
+        case .nameAscending:
+            return String(localized: "sort_name_asc")
+        case .nameDescending:
+            return String(localized: "sort_name_desc")
+        case .recentlyUpdated:
+            return String(localized: "sort_recently_updated")
+        case .oldestUpdated:
+            return String(localized: "sort_oldest_updated")
         }
     }
 }

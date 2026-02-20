@@ -35,6 +35,15 @@ Many apps silently hijack your default file associations during installation or 
 
 ## Build
 
+### With build.sh
+
+```bash
+git clone https://github.com/user/FileTypeGuard.git
+cd FileTypeGuard
+./build.sh          # Debug build
+./build.sh Release  # Release build
+```
+
 ### With Xcode
 
 ```bash

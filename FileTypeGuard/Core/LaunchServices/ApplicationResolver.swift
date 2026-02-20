@@ -9,6 +9,7 @@ final class ApplicationResolver {
 
     static let shared = ApplicationResolver()
     private init() {}
+    private let iconCache = NSCache<NSString, NSImage>()
 
     // MARK: - Error Types
 
@@ -110,11 +111,21 @@ final class ApplicationResolver {
     /// - Parameter bundleID: 应用的 Bundle ID
     /// - Returns: 应用图标
     func getApplicationIcon(bundleID: String) -> NSImage? {
-        guard let appURL = getApplicationPath(bundleID: bundleID) else {
+        guard !bundleID.isEmpty else {
             return nil
         }
 
-        return getApplicationIcon(at: appURL)
+        if let cached = iconCache.object(forKey: bundleID as NSString) {
+            return cached
+        }
+
+        guard let appURL = getApplicationPath(bundleID: bundleID),
+              let icon = getApplicationIcon(at: appURL) else {
+            return nil
+        }
+
+        iconCache.setObject(icon, forKey: bundleID as NSString)
+        return icon
     }
 
     // MARK: - Private Helper Methods

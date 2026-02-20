@@ -82,24 +82,6 @@ final class FileAssociationMonitor {
 
     /// 设置应用激活监听
     private func setupApplicationObserver() {
-        // 监听任何应用激活（不限于特定应用）
-        NSWorkspace.shared.notificationCenter.addObserver(
-            forName: NSWorkspace.didActivateApplicationNotification,
-            object: nil,
-            queue: .main
-        ) { [weak self] notification in
-            guard let self = self, self.isMonitoring else { return }
-
-            if let app = notification.userInfo?[NSWorkspace.applicationUserInfoKey] as? NSRunningApplication,
-               let bundleID = app.bundleIdentifier {
-                // 忽略自身
-                if bundleID == Bundle.main.bundleIdentifier { return }
-
-                print("🔔 应用激活: \(app.localizedName ?? bundleID)")
-                self.onDetectedChange?()
-            }
-        }
-
         // 监听新应用启动（安装后首次启动常常会修改文件关联）
         NSWorkspace.shared.notificationCenter.addObserver(
             forName: NSWorkspace.didLaunchApplicationNotification,
